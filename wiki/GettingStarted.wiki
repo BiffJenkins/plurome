@@ -17,3 +17,7 @@
 [http://lh6.ggpht.com/_hNy_9UI1_R8/SrXiyfj7cYI/AAAAAAAAC8I/cJSZK-VNxf4/s800/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202009-09-20%20%E4%B8%8B%E5%8D%884.06.42.png]
 
 點擊這個圖案，便會開啟一個 tab 將該頁的連結及標題送到 plurk 的訊息框。
+
+== 常見問題 ==
+
+  * 如果你的 Chrome 安裝有問題，或是安裝完後沒有效果，請記得在 Chrome 的啟動參數加上 `--enable-extensions`
