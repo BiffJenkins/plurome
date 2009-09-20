@@ -1,0 +1,23 @@
+<script type="text/javascript">
+chrome.extension.onConnect.addListener(function(port) {
+    port.onMessage.addListener(function(){
+        chrome.pageActions.enableForTab("PostPlurkAction", {
+            tabId: port.tab.id,
+            url: port.tab.url,
+            title: "Click to post...",
+            iconId: 0
+        });
+    });
+});
+
+chrome.pageActions["PostPlurkAction"].addListener(function(pageActionId, pageActionInfo) {
+    chrome.windows.getCurrent(function(window) {
+        chrome.tabs.get(pageActionInfo.tabId, function(tab) {
+            if (window.focused) {
+                var url = "http://www.plurk.com/?status="+encodeURIComponent(tab.url + ' ('+tab.title+')');
+                chrome.tabs.create({url: url, windowId: window.windowId});
+            }
+        });
+    });
+});
+</script>

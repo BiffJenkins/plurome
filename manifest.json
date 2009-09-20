@@ -1,0 +1,25 @@
+{
+    "name": "Plurk Tools",
+    "version": "0.1",
+    "description": "Plurk tool for Chrome",
+    "permissions": [
+        "tabs",
+        "http://*/*"
+    ],
+    "page_actions": [
+        {
+            "id": "PostPlurkAction",
+            "name": "plurkPost",
+            "icons": ["plurk.png"],
+            "tooltip": "Click to post the URL to Plurk",
+            "type": "tab"
+        }
+    ],
+    "background_page": "background.html",
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "file://*.*"],
+            "js": ["init.js"]
+        }
+    ]
+}
