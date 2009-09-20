@@ -3,7 +3,7 @@
 
 == 系統需求 ==
 
-  * Chrome 版本必須要是 3.0.189 以上。
+  * Chrome 版本必須要是 4.0 以上。
   * 目前僅有 Windows 版的 Chrome 支援 page_action 操作。（若 Linux/Mac 版的 Chrome 支援了 page action 則也可以使用本套件）
 
 == 安裝套件 ==
