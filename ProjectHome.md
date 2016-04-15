@@ -1,0 +1,3 @@
+Plurome 是一個 Google Chrome 的擴充套件（extensions），提供您在 Chrome 上快速使用 plurk 的工具。([使用方式](GettingStarted.md))
+
+![http://lh6.ggpht.com/_hNy_9UI1_R8/SrXiyfj7cYI/AAAAAAAAC8I/cJSZK-VNxf4/s400/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202009-09-20%20%E4%B8%8B%E5%8D%884.06.42.png](http://lh6.ggpht.com/_hNy_9UI1_R8/SrXiyfj7cYI/AAAAAAAAC8I/cJSZK-VNxf4/s400/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202009-09-20%20%E4%B8%8B%E5%8D%884.06.42.png)

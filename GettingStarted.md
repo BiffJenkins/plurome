@@ -1,0 +1,20 @@
+## 系統需求 ##
+
+  * Chrome 版本必須要是 4.0 以上。
+  * 目前僅有 Windows 版的 Chrome 支援 page\_action 操作。（若 Linux/Mac 版的 Chrome 支援了 page action 則也可以使用本套件）
+
+## 安裝套件 ##
+
+以 Chrome 連結至[套件下載頁](http://code.google.com/p/plurome/downloads/detail?name=plurome.crx)，點選 plurome.crx 檔案後，Chrome 會詢問是否安裝，選擇安裝即可完成安裝。
+
+## 使用方式 ##
+
+安裝完 plurome 套件後，開啟任何一個頁面，位址列會出現一個 plurk 的圖案，如下：
+
+![http://lh6.ggpht.com/_hNy_9UI1_R8/SrXiyfj7cYI/AAAAAAAAC8I/cJSZK-VNxf4/s800/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202009-09-20%20%E4%B8%8B%E5%8D%884.06.42.png](http://lh6.ggpht.com/_hNy_9UI1_R8/SrXiyfj7cYI/AAAAAAAAC8I/cJSZK-VNxf4/s800/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202009-09-20%20%E4%B8%8B%E5%8D%884.06.42.png)
+
+點擊這個圖案，便會開啟一個 tab 將該頁的連結及標題送到 plurk 的訊息框。
+
+## 常見問題 ##
+
+  * 如果你的 Chrome 安裝有問題，或是安裝完後沒有效果，請記得在 Chrome 的啟動參數加上 `--enable-extensions`
